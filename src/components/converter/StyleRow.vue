@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center space-x-3 p-3 bg-white border border-silver rounded-xs shadow-sm"
+    class="relative flex items-center space-x-3 p-3 bg-white border border-silver rounded-xs shadow-sm"
   >
     <StyleDropdown v-model:styleId="localStyleId" class="flex-1 min-w-0" />
     <div
@@ -74,10 +74,3 @@ const copyText = async () => {
   }
 };
 </script>
-
-<style scoped>
-/* Relative positioning for feedback */
-div:has(button) {
-  position: relative;
-}
-</style>
