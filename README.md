@@ -67,4 +67,3 @@ node server.js  # Startet auf Port 3123 (oder $PORT)
 - Responsive, fixed Bars, weiß/silber Design
 
 Perfekt für LinkedIn-Posts!
-
